@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/test-gh-pages/static/css/main.7b6649ab.chunk.css",
-    "main.js": "/test-gh-pages/static/js/main.9f0448bd.chunk.js",
-    "main.js.map": "/test-gh-pages/static/js/main.9f0448bd.chunk.js.map",
+    "main.css": "/test-gh-pages/static/css/main.b19134ea.chunk.css",
+    "main.js": "/test-gh-pages/static/js/main.22f9637d.chunk.js",
+    "main.js.map": "/test-gh-pages/static/js/main.22f9637d.chunk.js.map",
     "runtime-main.js": "/test-gh-pages/static/js/runtime-main.dd24f904.js",
     "runtime-main.js.map": "/test-gh-pages/static/js/runtime-main.dd24f904.js.map",
     "static/js/2.a85f09cb.chunk.js": "/test-gh-pages/static/js/2.a85f09cb.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.ab63a698.chunk.js": "/test-gh-pages/static/js/3.ab63a698.chunk.js",
     "static/js/3.ab63a698.chunk.js.map": "/test-gh-pages/static/js/3.ab63a698.chunk.js.map",
     "index.html": "/test-gh-pages/index.html",
-    "static/css/main.7b6649ab.chunk.css.map": "/test-gh-pages/static/css/main.7b6649ab.chunk.css.map",
+    "static/css/main.b19134ea.chunk.css.map": "/test-gh-pages/static/css/main.b19134ea.chunk.css.map",
     "static/js/2.a85f09cb.chunk.js.LICENSE.txt": "/test-gh-pages/static/js/2.a85f09cb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd24f904.js",
     "static/js/2.a85f09cb.chunk.js",
-    "static/css/main.7b6649ab.chunk.css",
-    "static/js/main.9f0448bd.chunk.js"
+    "static/css/main.b19134ea.chunk.css",
+    "static/js/main.22f9637d.chunk.js"
   ]
 }
