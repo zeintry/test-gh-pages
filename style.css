@@ -1,0 +1,26 @@
+#title {
+    margin-bottom: 5em;
+}
+
+html, body,
+#text {
+    position: absolute;
+    left: 50%;
+    padding: 1em;
+}
+
+#myGraph {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 50%;
+    min-height: 100vh;
+    border-right: 1px solid lightgray;
+    background: white;
+  }
+
+
+  
