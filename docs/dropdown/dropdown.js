@@ -4,6 +4,7 @@ function handleDrop(event) {
     document.getElementById("graphDropdown").classList.toggle("show");
 }
 
+/* Sets the text of the selected graph based on what was clicked. */
 function handleGraphSelection(event) {
     // get label to change text
     var label = document.getElementById('graphLabel');
@@ -17,7 +18,7 @@ window.onclick = function(event) {
         if (event.target.matches('a')) {
             handleGraphSelection(event);
         }
-        
+
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
 
