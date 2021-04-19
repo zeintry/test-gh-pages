@@ -1,6 +1,6 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function handleDrop() {
+function handleDrop(event) {
     document.getElementById("graphDropdown").classList.toggle("show");
 }
 
@@ -11,8 +11,12 @@ function handleGraphSelection(event) {
 }
 
 // Close the dropdown if the user clicks outside of it
+// and also handle graph selection
 window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn') || !event.taget.matches('a')) {
+    if (event.target.matches('a')) {
+        handleGraphSelection(event);
+    }
+    else if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
 
