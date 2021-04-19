@@ -28,12 +28,17 @@
                         
                         <div class="dropdown">
                             <button onclick="handleDrop()" class="dropbtn">Select Graph</button>
-                            <div id="graphDropdown" class="dropdown-content">
+                            <div id="graphDropdown" class="dropdown-content" onclick="handleGraphSelection()">
                               <a href="#grid">Grid</a>
                               <a href="#random">Random Graph</a>
                             </div>
-                        </div>                        
+                        </div>
+                        <div id="graphLabel">Graph Selected: Random (default)</div>
                         <script type="text/javascript" src="dropdown/dropdown.js"></script>
+
+                        <div id="graphStartNode">
+                            <button onclick="selectStartNode()" class="">Select Start Node:</button>
+                        </div>
                     </div>
                 </header>
                 
