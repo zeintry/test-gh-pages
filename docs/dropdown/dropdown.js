@@ -7,7 +7,7 @@ function handleDrop() {
 function handleGraphSelection(event) {
     // get label to change text
     var label = document.getElementById('graphLabel');
-    label.innerText = "Selected Graph: " + event.target.innerText;
+    label.innerHTML = "Selected Graph: " + event.target.innerText;
 }
 
 // Close the dropdown if the user clicks outside of it
