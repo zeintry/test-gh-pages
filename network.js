@@ -41,11 +41,7 @@ const data = {
 };
 
 // set options for the vis graph
-const options = {
-    autoResize: true,
-    width: '100%',
-    height: '100%',
-};
+const options = {}
 
 // create a network by getting container
 var container = document.getElementById('myGraph');

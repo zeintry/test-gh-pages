@@ -2,11 +2,23 @@
     margin-bottom: 5em;
 }
 
+.options-text {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
 html, body,
 #text {
     position: absolute;
     left: 50%;
     padding: 1em;
+    text-align: center;
 }
 
 #myGraph {
