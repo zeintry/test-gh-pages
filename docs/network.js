@@ -41,7 +41,11 @@ const data = {
 };
 
 // set options for the vis graph
-const options = {}
+const options = {
+    layout: {
+        randomSeed: "0.9968069182323511:1618803734894",
+    }
+}
 
 // create a network by getting container
 var container = document.getElementById('myGraph');
