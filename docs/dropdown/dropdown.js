@@ -13,10 +13,11 @@ function handleGraphSelection(event) {
 // Close the dropdown if the user clicks outside of it
 // and also handle graph selection
 window.onclick = function(event) {
-    if (event.target.matches('a')) {
-        handleGraphSelection(event);
-    }
-    else if (!event.target.matches('.dropbtn')) {
+    if (!event.target.matches('.dropbtn')) {
+        if (event.target.matches('a')) {
+            handleGraphSelection(event);
+        }
+        
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
 
