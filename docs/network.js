@@ -13,7 +13,7 @@ var nodes = new vis.DataSet([
     {id: 10, label: "Router 10"},
     {id: 11, label: "Router 11"},
 ]);
-  
+
 // create an array of edges
 var edges = new vis.DataSet([
     {from: 1, to: 3, label: '6'},

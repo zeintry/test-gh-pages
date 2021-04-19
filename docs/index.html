@@ -12,6 +12,7 @@
         <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="network.css">
+        <link rel="stylesheet" href="dropdown/dropdown.css">
 
         <title>Alan's Semester Project</title>
     </head>
@@ -21,15 +22,17 @@
             <div class="App">
                 <header class="App-header">
                     <div id="text">
-                        <div id="title">Options:</div>
-                        <div id="buttons">
-                            <label>Choose Graph type:</div>
-                            <button>Graph: Grid</button>
-                            <button>Graph: Random</button>
-            
-                            <div>Choose Nodes:</div>
-                            <button>Choose Start node</button>
-                            <button>Choose End node</button>
+                        <div id="title">A* Visualization</div>
+                        <div></div>
+                        <div>Options:</div>
+                        <div class="dropdown">
+                            <button onclick="handleClick()" class="dropbtn">Select a Graph</button>
+                            <script type="text/javascript" src="dropdown/dropdown.js"></script>
+                            <div id="graphDropdown" class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
                         </div>
                     </div>
                 </header>
